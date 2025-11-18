@@ -162,3 +162,4 @@ let fish = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Food)
+music.play(music.createSong(assets.song`cancion saika`), music.PlaybackMode.LoopingInBackground)
